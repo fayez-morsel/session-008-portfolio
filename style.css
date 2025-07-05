@@ -783,14 +783,14 @@ footer {
     }
 
     .experience-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "first first"
-                        "second second"
-                        "third third";
-    grid-gap: 20px 60px;
-    
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "first first"
+                            "second second"
+                            "third third";
+        grid-gap: 20px 60px;
+        
+    }
 
 }
