@@ -1,7 +1,7 @@
 :root{ 
     --primary: #6C63FF;
     --secondary: #4A44C6;
-    --accent: #00D2A8;
+    --aqua: #00D2A8;
     --dark: #1F2232;
     --darker: #171A28;
     --light: #F5F5F7;
@@ -44,7 +44,7 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--accent);
+    color: var(--aqua);
     transition: var(--transition);
 }
 
@@ -86,7 +86,7 @@ header {
 }
 
 .logo span {
-    color: var(--accent);
+    color: var(--aqua);
 }
 
 .nav-links {
@@ -112,7 +112,7 @@ header {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--accent);
+    background: var(--aqua);
     transition: var(--transition);
 }
 
@@ -149,7 +149,7 @@ header {
 
 .hero-uptitle {
     font-size: 1.2rem;
-    color: var(--accent);
+    color: var(--aqua);
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 20px;
@@ -159,7 +159,7 @@ header {
     font-size: 4.5rem;
     line-height: 1.1;
     margin-bottom: 30px;
-    background: linear-gradient(90deg, var(--light), var(--accent));
+    background: linear-gradient(90deg, var(--light), var(--aqua));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -200,14 +200,14 @@ header {
 }
 
 .hero-btns .btn1:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
+    background-color: var(--aqua);
+    border-color: var(--aqua);
     color:var(--light);
 }
 
 .hero-btns .btn:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
+    background-color: var(--aqua);
+    border-color: var(--aqua);
     color:var(--light);
 }
 
@@ -232,7 +232,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, var(--primary), var(--accent));
+    background: linear-gradient(45deg, var(--primary), var(--aqua));
     opacity: 0.2;
     z-index: 2;
 }
@@ -280,7 +280,7 @@ header {
 .skill-info h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: var(--accent);
+    color: var(--aqua);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -320,7 +320,7 @@ header {
     font-size: 3rem;
     margin-bottom: 60px;
     text-align: center;
-    background: linear-gradient(90deg, var(--primary), var(--accent));
+    background: linear-gradient(90deg, var(--primary), var(--aqua));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -332,7 +332,7 @@ header {
 }
 
 #projects{
-    height: 120vh;
+    height: 100%;
     padding: var(--section-padding) 0;
 
 }
@@ -421,14 +421,14 @@ header {
 }
 
 .btns .btn1:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
+    background-color: var(--aqua);
+    border-color: var(--aqua);
     color:var(--light);
 }
 
 .btns .btn:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
+    background-color: var(--aqua);
+    border-color: var(--aqua);
     color:var(--light);
 }
 
@@ -447,7 +447,7 @@ header {
 }
 
 #experience{
-    height: 180vh;
+    height: 100%;
     position: relative;
     background-color: var(--background-color);
     padding: var(--section-padding) 0;
@@ -503,7 +503,7 @@ header {
 }
 
 .date {
-    color: var(--accent);
+    color: var(--aqua);
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -511,4 +511,129 @@ header {
 .title {
     font-size: 1.5rem;
     margin-bottom: 15px;
+}
+
+#contact{
+    height: 100%;
+    padding: var(--section-padding) 0;
+}
+
+.darker-card{
+    background-color: var(--darker);
+    padding:20px;
+    border-radius: 10px;
+}
+
+.container-info{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+.contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, var(--primary), var(--aqua));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-info-up {
+    margin-bottom: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: var(--darker);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.item:hover {
+    transform: translateX(10px);
+    border-left: 3px solid var(--aqua);
+}
+
+.-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+.icon-links {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-link {
+    width: 50px;
+    height: 50px;
+    background: var(--darker);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.icon-link:hover {
+    background: var(--primary);
+    transform: translateY(-5px);
+}
+
+.form-info .form-input{
+    margin-bottom: 25px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px 20px;
+    background: var(--darker);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: white;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+textarea .form-input {
+    min-height: 150px;
+}
+
+form .btn{
+    border-radius: 3rem;
+    border: var(--primary) 2px solid;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    font-weight: 400;
+    font-size: .7rem;
+    color: var(--light);
+    background-color: var(--primary);
+    transition: var(--transition);
+    transition-duration: 0.5s;
+}
+
+form .btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }
