@@ -214,6 +214,7 @@ header {
     max-width: 500px;
     border-radius: var(--border-radius);
     overflow: hidden;
+    height: 40%;
     box-shadow: var(--box-shadow);
     z-index: 1;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -234,6 +235,7 @@ header {
 .hero-img img {
     width: 100%;
     height: 100%;
+    
 }
 
 .hero-img {
@@ -305,8 +307,6 @@ header {
     font-size: 1.2rem;
     color: var(--primary);
 }
-
-
 
 
 .section-title {
@@ -451,7 +451,7 @@ header {
 }
 
 .line-purple{
-    height: 140vh;
+    height: 130vh;
     width: 3px;
     border: solid 2px var(--secondary);
     position: absolute;
